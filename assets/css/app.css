@@ -1,0 +1,22 @@
+/*app css jktheme, additonal custom css*/
+.navbar {
+}
+#btnLogout {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+#btnBack {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.imgThumb {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.mbrib-video {
+	position: absolute;
+	color: #343a40 !important;
+}
