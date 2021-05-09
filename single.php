@@ -17,16 +17,18 @@
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/theme/css/style.css" />
         <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" /></noscript>
-        <link rel="preload" as="style" href="<?php echo get_template_directory_uri(); ?>/assets/mobirise/css/mbr-additional.css" />
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/mobirise/css/mbr-additional.css" type="text/css" />
+        <link rel="preload" as="style" href="<?php echo get_template_directory_uri(); ?>/assets/css/app.css" />
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/app.css" type="text/css" />
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light position-relative">
+            <a class="btnNav ml-auto" href="<?php echo $siteurl; ?>/wp-login.php?action=logout"><button class="btn btn-warning">Logout</button></a>
+        </nav>
         <section class="video1 cid-swrZHzhaIG" id="video1-8">
             <div class="align-center container">
                 <div class="mbr-section-head"></div>
                 <div class="row justify-content-center mt-4">
-                    <div class="col-12 col-lg-10">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <div class="box">
                             <div class="mbr-media show-modal align-center" data-modal=".modalWindow">
                                 <img src="<?php echo $siteurl; ?>/wp-content/uploads/2021/05/produk-jago-keuangan.jpg" alt="Mobirise" />
@@ -57,7 +59,7 @@
                             <div class="card-box align-left">
                                 <h5 class="card-title mbr-fonts-style align-left mb-3 display-5"><strong>Mindset Keuangan</strong></h5>
                                 <p class="mbr-text mbr-fonts-style mb-3 display-4" style="display:none;">Deskripsi video yang akan diputar</p>
-                                <div class="mbr-section-btn"><a href="http://jagokeuangan.com/wp-content/uploads/2021/05/Video-1-1.m4v" class="btn btn-secondary display-4">Putar Video</a></div>
+                                <div class="mbr-section-btn"><a href="http://member.jagokeuangan.com/mindset-keuangan/" class="btn btn-secondary display-4">Putar Video</a></div>
                             </div>
                             <div class="img-wrapper img1 align-center"><img class="imgThumb" src="<?php echo $siteurl; ?>/wp-content/uploads/2021/05/mindset-keuangan.jpg"><span class="mbr-iconfont mbrib-video"></span></div>
                         </div>
@@ -67,7 +69,7 @@
                             <div class="card-box align-left">
                                 <h5 class="card-title mbr-fonts-style align-left mb-3 display-5"><strong>Laporan Keuangan</strong></h5>
                                 <p class="mbr-text mbr-fonts-style mb-3 display-4" style="display:none;">Deskripsi video yang akan diputar</p>
-                                <div class="mbr-section-btn"><a href="http://jagokeuangan.com/wp-content/uploads/2021/05/Video-2-1.mp4" class="btn btn-secondary display-4">Putar Video</a></div>
+                                <div class="mbr-section-btn"><a href="http://member.jagokeuangan.com/laporan-keuangan/" class="btn btn-secondary display-4">Putar Video</a></div>
                             </div>
                             <div class="img-wrapper img2 align-center"><img class="imgThumb" src="<?php echo $siteurl; ?>/wp-content/uploads/2021/05/korelasi.jpg"><span class="mbr-iconfont mbrib-video"></span></div>
                         </div>
@@ -83,7 +85,7 @@
                             <div class="card-box align-left">
                                 <h5 class="card-title mbr-fonts-style align-left mb-3 display-5"><strong>Simulasi 1</strong></h5>
                                 <p class="mbr-text mbr-fonts-style mb-3 display-4" style="display:none;">Deskripsi video yang akan diputar</p>
-                                <div class="mbr-section-btn"><a href="http://jagokeuangan.com/wp-content/uploads/2021/05/Video-3-1.mp4" class="btn btn-secondary display-4">Putar Video</a></div>
+                                <div class="mbr-section-btn"><a href="http://member.jagokeuangan.com/simulasi-1/" class="btn btn-secondary display-4">Putar Video</a></div>
                             </div>
                             <div class="img-wrapper img1 align-center"><img class="imgThumb" src="<?php echo $siteurl; ?>/wp-content/uploads/2021/05/bulan-1.jpg"><span class="mbr-iconfont mbrib-video"></span></div>
                         </div>
@@ -93,7 +95,7 @@
                             <div class="card-box align-left">
                                 <h5 class="card-title mbr-fonts-style align-left mb-3 display-5"><strong>Simulasi 2</strong></h5>
                                 <p class="mbr-text mbr-fonts-style mb-3 display-4" style="display:none;">Deskripsi video yang akan diputar</p>
-                                <div class="mbr-section-btn"><a href="http://jagokeuangan.com/wp-content/uploads/2021/05/Video-4-1.mp4" class="btn btn-secondary display-4">Putar Video</a></div>
+                                <div class="mbr-section-btn"><a href="http://member.jagokeuangan.com/simulasi-2/" class="btn btn-secondary display-4">Putar Video</a></div>
                             </div>
                             <div class="img-wrapper img2 align-center"><img class="imgThumb" src="<?php echo $siteurl; ?>/wp-content/uploads/2021/05/bulan-2.jpg"><span class="mbr-iconfont mbrib-video"></span></div>
                         </div>
@@ -109,7 +111,7 @@
                             <div class="card-box align-left">
                                 <h5 class="card-title mbr-fonts-style align-left mb-3 display-5"><strong>Simulasi 3</strong></h5>
                                 <p class="mbr-text mbr-fonts-style mb-3 display-4" style="display:none;">Deskripsi video yang akan diputar</p>
-                                <div class="mbr-section-btn"><a href="http://jagokeuangan.com/wp-content/uploads/2021/05/Video-5-1.mp4" class="btn btn-secondary display-4">Putar Video</a></div>
+                                <div class="mbr-section-btn"><a href="http://member.jagokeuangan.com/simulasi-3/" class="btn btn-secondary display-4">Putar Video</a></div>
                             </div>
                             <div class="img-wrapper img1 align-center"><img class="imgThumb" src="<?php echo $siteurl; ?>/wp-content/uploads/2021/05/bulan-3.jpg"><span class="mbr-iconfont mbrib-video"></span></div>
                         </div>
@@ -119,7 +121,7 @@
                             <div class="card-box align-left">
                                 <h5 class="card-title mbr-fonts-style align-left mb-3 display-5"><strong>Simulasi 4</strong></h5>
                                 <p class="mbr-text mbr-fonts-style mb-3 display-4" style="display:none;">Deskripsi video yang akan diputar</p>
-                                <div class="mbr-section-btn"><a href="http://jagokeuangan.com/wp-content/uploads/2021/05/Video-6-1.mp4" class="btn btn-secondary display-4">Putar Video</a></div>
+                                <div class="mbr-section-btn"><a href="http://member.jagokeuangan.com/simulasi-4/" class="btn btn-secondary display-4">Putar Video</a></div>
                             </div>
                             <div class="img-wrapper img2 align-center"><img class="imgThumb" src="<?php echo $siteurl; ?>/wp-content/uploads/2021/05/bulan-4.jpg"><span class="mbr-iconfont mbrib-video"></span></div>
                         </div>
@@ -135,7 +137,7 @@
                             <div class="card-box align-left">
                                 <h5 class="card-title mbr-fonts-style align-left mb-3 display-5"><strong>Simulasi 5</strong></h5>
                                 <p class="mbr-text mbr-fonts-style mb-3 display-4" style="display:none;">Deskripsi video yang akan diputar</p>
-                                <div class="mbr-section-btn"><a href="http://jagokeuangan.com/wp-content/uploads/2021/05/Video-7-1.mp4" class="btn btn-secondary display-4">Putar Video</a></div>
+                                <div class="mbr-section-btn"><a href="http://member.jagokeuangan.com/simulasi-5/" class="btn btn-secondary display-4">Putar Video</a></div>
                             </div>
                             <div class="img-wrapper img1 align-center"><img class="imgThumb" src="<?php echo $siteurl; ?>/wp-content/uploads/2021/05/bulan-5.jpg"><span class="mbr-iconfont mbrib-video"></span></div>
                         </div>
@@ -145,7 +147,7 @@
                             <div class="card-box align-left">
                                 <h5 class="card-title mbr-fonts-style align-left mb-3 display-5"><strong>Analisis Keuangan</strong></h5>
                                 <p class="mbr-text mbr-fonts-style mb-3 display-4" style="display:none;">Deskripsi video yang akan diputar</p>
-                                <div class="mbr-section-btn"><a href="http://jagokeuangan.com/wp-content/uploads/2021/05/Video-8-1.mp4" class="btn btn-secondary display-4">Putar Video</a></div>
+                                <div class="mbr-section-btn"><a href="http://member.jagokeuangan.com/analisis-keuangan/" class="btn btn-secondary display-4">Putar Video</a></div>
                             </div>
                             <div class="img-wrapper img2 align-center"><img class="imgThumb" src="<?php echo $siteurl; ?>/wp-content/uploads/2021/05/analisis-keuangan.jpg"><span class="mbr-iconfont mbrib-video"></span></div>
                         </div>
@@ -190,17 +192,12 @@
                 </div>
             </div>
         </section>
-        <section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color: #aaa; font-size: 12px; padding: 0; align-items: center; display: none;">
-            <a href="https://mobirise.site/q" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a>
-            <p style="flex: 0 0 auto; margin: 0; padding-right: 1rem;">web page builder - <a href="https://mobirise.site/o" style="color: #aaa;">Click now</a></p>
-        </section>
-        <a id="btnLogout" href="<?php echo $siteurl; ?>/wp-login.php?action=logout"><button class="btn btn-light">Logout</button></a>
         <script src="<?php echo get_template_directory_uri(); ?>/assets/web/assets/jquery/jquery.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/assets/popper/popper.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/assets/tether/tether.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/assets/smoothscroll/smooth-scroll.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/assets/playervimeo/vimeo_player.js"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/assets/theme/js/script.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/app.js"></script>
     </body>
 </html>

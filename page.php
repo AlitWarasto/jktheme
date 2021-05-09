@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
         <link rel="shortcut icon" href="<?php echo $siteurl; ?>/wp-content/uploads/2021/05/cropped-logo-jago-keuangan-merah.png" type="image/x-icon" />
         <meta name="description" content="" />
-        <title>Welcome to Akses Member Jago Keuangan</title>
+        <title><?php echo the_title(); ?> - Akses Member Jago Keuangan</title>
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/web/assets/mobirise-icons2/mobirise2.css" />
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css" />
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/tether/tether.min.css" />
@@ -17,15 +17,14 @@
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/theme/css/style.css" />
         <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" /></noscript>
-        <link rel="preload" as="style" href="<?php echo get_template_directory_uri(); ?>/assets/mobirise/css/mbr-additional.css" />
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/mobirise/css/mbr-additional.css" type="text/css" />
+        <link rel="preload" as="style" href="<?php echo get_template_directory_uri(); ?>/assets/css/app.css" />
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/app.css" type="text/css" />
     </head>
     <body>
     	<nav class="navbar navbar-expand-lg navbar-light bg-light position-relative">
-    			<a class="btnNav" type="button" onclick="history.back();"><button class="btn btn-warning">Back</button></a>
-			    <a class="btnNav" href="<?php echo $siteurl; ?>/wp-login.php?action=logout"><button class="btn btn-warning">Logout</button></a>
-			</nav>
+			<a class="btnNav" type="button" onclick="history.back();"><button class="btn btn-warning">Back</button></a>
+		    <a class="btnNav" href="<?php echo $siteurl; ?>/wp-login.php?action=logout"><button class="btn btn-warning">Logout</button></a>
+		</nav>
 			<div class="contaier-fluid">
 				<?php if (have_posts()) :
 					while (have_posts()) :
@@ -77,16 +76,12 @@
             </div>
         </div>
     </section>
-    <section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color: #aaa; font-size: 12px; padding: 0; align-items: center; display: none;">
-        <a href="https://mobirise.site/q" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a>
-        <p style="flex: 0 0 auto; margin: 0; padding-right: 1rem;">web page builder - <a href="https://mobirise.site/o" style="color: #aaa;">Click now</a></p>
-    </section>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/web/assets/jquery/jquery.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/popper/popper.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/tether/tether.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/smoothscroll/smooth-scroll.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/playervimeo/vimeo_player.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/theme/js/script.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/app.js"></script>
   </body>
 </html>
